@@ -5,7 +5,7 @@ from datetime import datetime
 import uuid
 
 
-# Constants for the limits
+# Constants for the limits, change these accordingly, don't exceed Iris's max-min values.
 HORIZONTAL_SCALE_MIN = 1.0
 HORIZONTAL_SCALE_MAX = 8192.0
 ZOOM_MIN = 0.00005
@@ -29,7 +29,7 @@ def generate_random_number(min_value, max_value, is_int=False, decimal_places=3)
         return random.randint(min_value, max_value)
     else:
         if max_value is float('inf'):
-            max_value = 1e6  # Adjust this number as needed
+            max_value = 1e6
         value = random.uniform(min_value, max_value)
         return round(value, random.randint(0, decimal_places))
 
