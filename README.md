@@ -23,7 +23,7 @@ Alternatevily, instead of writing down your path, you can just right click on yo
 ## And that's it, you can now drag your new randomized generators to your Iris pack, make sure to separate them in distinctive folders so you don't confuse them inside your pack folder.
 ## Make sure to have a "generators" folder inside your pack, if you don't have one, which I really doubt it, you should create a new one. 
 
-### Once you have your generators in your folder, use the following command in console ==/iris std generator generator=your/path/filename==
+### Once you have your generators in your folder, use the following command in console /iris std generator generator=your/path/filename
 ![Example6](images/example6.jpg)
 ### This new window will open, you have to give it some time depending on the generator you opened, it takes some time to render, as you can see mine hasn't been rendered yet.
 ![Example7](images/example7.jpg)
